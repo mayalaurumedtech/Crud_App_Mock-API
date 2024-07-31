@@ -87,8 +87,8 @@ const Read = () => {
                             }
                             else {
                                 return (
-                                    el.name.toLowerCase().includes(inputSearch) ||
-                                    el.email.toLowerCase().includes(inputSearch)
+                                    el.name?.toLowerCase().includes(inputSearch) ||
+                                    el.email?.toLowerCase().includes(inputSearch)
                                 )
                             }
                         }).map((eatchData, index) => {
